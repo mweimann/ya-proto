@@ -2,7 +2,7 @@
 /* Client Bootstrap configuration */
 globalThis.LWR = globalThis.LWR || {};
 Object.assign(globalThis.LWR, {"appId":"example","bootstrapModule":"@lwrjs/app-service/example/module/esm/v/0_18_1","autoBoot":true,"imports":{"/ya-proto/1/bundle/esm/l/en-US/bi/0/module/mi/%40lwrjs%2Fapp-service%2Fexample%2Fmodule%2Fesm%2Fv%2F0_18_1/s/sha256-S50GQv7sF0LxZ4XXtbSTdxK6FVSfRmEl0RiDvoz8p1Y/bundle_@lwrjs_app-service_example_module_esm.js":["@lwrjs/app-service/example/module/esm/v/0_18_1"],"/ya-proto/1/bundle/esm/l/en-US/bi/0/module/mi/example%2Fapp%2Fv%2F0_0_1/s/sha256-qgal08Eay55JkGGSuMHZC9JB-awVyJdENNF5eOXvzeg/bundle_example_app.js":["example/app/v/0_0_1"]},"index":{"@lwrjs/app-service/example/module/esm/v/0_18_1":"/ya-proto/1/module/esm/0/l/en-US/mi/%40lwrjs%2Fapp-service%2Fexample%2Fmodule%2Fesm%2Fv%2F0_18_1/latest/@lwrjs_app-service_example_module_esm.js","example/app/v/0_0_1":"/ya-proto/1/module/esm/0/l/en-US/mi/example%2Fapp%2Fv%2F0_0_1/latest/example_app.js"},"rootComponents":["example/app/v/0_0_1"],"serverData":{},"endpoints":{"uris":{"mapping":"/ya-proto/1/mapping/esm/0/l/en-US/bi/0/mp/","module":"/ya-proto/1/bundle/esm/l/en-US/bi/0/module/mi/"}}});
-globalThis.LWR = {...globalThis.LWR, env: {"SSR":false,"SSREnabled":false,"basePath":"","locale":"en-US","assetBasePath":"","uiBasePath":""}};
+globalThis.LWR = {...globalThis.LWR, env: {"SSR":false,"SSREnabled":false,"basePath":"/ya-proto","locale":"en-US","assetBasePath":"/ya-proto","uiBasePath":"/ya-proto"}}};
 globalThis.process={...globalThis.process,env:{...globalThis.process?.env,...{"NODE_ENV":"prod"}}};
 globalThis.lwcRuntimeFlags = { ENABLE_MIXED_SHADOW_MODE: false, ENABLE_WIRE_SYNC_EMIT: false };
 // Appended by Static Site Generator
