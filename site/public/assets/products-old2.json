@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "name": "Einstein Conversation Insights",
+    "price": "$50.00",
+    "frequency": "per month",
+    "description": "Get the real-time insights you need to personalize every customer experience.",
+    "capabilities": ["Call Insights",
+                    "Call Trend Summaries",
+                    "Enablement Analytics"],
+    "capabilitiesLink": "https://www.salesforce.com/sales/conversation-intelligence/",
+    "relationType": "bundles",
+    "relatedProducts": [
+      { "name": "Sales Engagement", "link": "/sales-engagement" },
+      { "name": "Unlimited Edition", "link": "/unlimited-edition" }
+    ],
+    "tags": ["Sales",
+             "CRM"]
+  },
+  {
+    "id": 2,
+    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "name": "Sales Engagement",
+    "price": "$50.00",
+    "frequency": "per month",
+    "description": "Engage prospects and customers more effectively at every stage of the deal.",
+    "capabilities": ["Sales Cadences",
+                    "Engagement Intelligence",
+                    "Customer Signals"],
+    "capabilitiesLink": "https://www.salesforce.com/sales/engagement-platform/",
+    "relationType": "bundles",
+    "relatedProducts": [
+      {
+        "name": "Unlimited Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Einstein 1 Sales Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": ["Sales",
+             "CRM"]
+  },
+  {
+    "id": 3,
+    "icon": "/public/assets/product-icons/starter-icon.svg",
+    "name": "Starter Suite",
+    "price": "$25.00",
+    "frequency": "per month",
+    "description": "Start fast with marketing, sales, commerce and service tools in a single app.",
+    "capabilities": ["Sales opportunity tracking",
+                    "Marketing segmentation and campaigns",
+                    "Secure online payment links",
+                    "Customer service case management"],
+    "capabilitiesLink": "https://www.salesforce.com/small-business/starter/",
+    "tags": ["Small business",
+             "CRM",
+             "Suite"]
+  },
+  {
+    "id": 4,
+    "icon": "/public/assets/product-icons/platform-icon.svg",
+    "name": "Cloud Storage",
+    "price": "$19.00",
+    "frequency": "per TB",
+    "description": "Secure, scalable cloud storage.",
+    "capabilities": ["File Sync",
+                    "Backup",
+                    "Collaboration"],
+    "capabilitiesLink": "https://example.com/cloud-storage",
+    "relationType": "bundles",
+    "relatedProducts": [
+      {
+        "name": "Productivity Suite",
+        "link": "https://example.com/productivity-suite"
+      }
+    ],
+    "tags": ["Storage",
+             "Cloud",
+             "Collaboration",
+             "Platform"]
+  },
+  {
+    "id": 5,
+    "icon": "/public/assets/product-icons/agentforce-icon.svg",
+    "name": "Flex Credits",
+    "price": "$500.00",
+    "frequency": "100,000 credits",
+    "description": "Flexible credits that can be used across all of Slaesforce's consumption-based services.",
+    "capabilities": ["Cost Alignment: Scale spend to the value delivered",
+                    "Adaptability: Pilot, expand, and evolve your AI strategy",
+                    "Visibility: Track usage over time with Digital Wallet"],
+    "capabilitiesLink": "https://google.com",
+    "relationType": "canBeUsedFor",
+    "relatedProducts": [
+        { "name": "Service Agent", "link": "google.com" },
+        { "name": "SDR Agent", "link": "google.com" },
+        { "name": "Sales Coach", "link": "google.com" },
+        { "name": "Employee Agent", "link": "google.com" }
+    ],
+    "tags": ["Agentforce",
+             "Credits",
+             "Data"]
+  }
+]
