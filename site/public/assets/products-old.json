@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "icon": "/public/assets/product1-icon.svg",
+    "icon": "/ya-proto/public/assets/product1-icon.svg",
     "name": "Super CRM",
     "price": "$49.00",
     "frequency": "per month",
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "icon": "/public/assets/product2-icon.svg",
+    "icon": "/ya-proto/public/assets/product2-icon.svg",
     "name": "Cloud Storage",
     "price": "$19.00",
     "frequency": "per month",
@@ -30,7 +30,7 @@
   },
   {
     "id": 3,
-    "icon": "/public/assets/product3-icon.svg",
+    "icon": "/ya-proto/public/assets/product3-icon.svg",
     "name": "AI Assistant",
     "price": "$99.00",
     "frequency": "per month",

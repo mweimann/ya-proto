@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "icon": "/ya-proto/public/assets/product-icons/sales-icon.svg",
     "name": "Einstein Conversation Insights",
     "price": "$50.00",
     "frequency": "per month",
@@ -12,15 +12,15 @@
     "capabilitiesLink": "https://www.salesforce.com/sales/conversation-intelligence/",
     "relationType": "bundles",
     "relatedProducts": [
-      { "name": "Sales Engagement", "link": "/sales-engagement" },
-      { "name": "Unlimited Edition", "link": "/unlimited-edition" }
+      { "name": "Sales Engagement", "link": "/ya-proto/sales-engagement" },
+      { "name": "Unlimited Edition", "link": "/ya-proto/unlimited-edition" }
     ],
     "tags": ["Sales",
              "CRM"]
   },
   {
     "id": 2,
-    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "icon": "/ya-proto/public/assets/product-icons/sales-icon.svg",
     "name": "Sales Engagement",
     "price": "$50.00",
     "frequency": "per month",
@@ -45,7 +45,7 @@
   },
   {
     "id": 3,
-    "icon": "/public/assets/product-icons/starter-icon.svg",
+    "icon": "/ya-proto/public/assets/product-icons/starter-icon.svg",
     "name": "Starter Suite",
     "price": "$25.00",
     "frequency": "per month",
@@ -61,7 +61,7 @@
   },
   {
     "id": 4,
-    "icon": "/public/assets/product-icons/platform-icon.svg",
+    "icon": "/ya-proto/public/assets/product-icons/platform-icon.svg",
     "name": "Cloud Storage",
     "price": "$19.00",
     "frequency": "per TB",
@@ -84,7 +84,7 @@
   },
   {
     "id": 5,
-    "icon": "/public/assets/product-icons/agentforce-icon.svg",
+    "icon": "/ya-proto/public/assets/product-icons/agentforce-icon.svg",
     "name": "Flex Credits",
     "price": "$500.00",
     "frequency": "100,000 credits",
