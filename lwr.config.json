@@ -1,0 +1,49 @@
+{
+    "lwc": { 
+        "modules": [
+            { "dir": "$rootDir/src/modules" },
+            { "npm": "lightning-base-components" }
+        ] },
+    "routes": [
+        {
+            "id": "example",
+            "path": "/",
+            "rootComponent": "example/app",
+            "layoutTemplate": "$layoutsDir/index.njk",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
+        },
+        {
+            "id": "product-catalog",
+            "path": "/product-catalog",
+            "rootComponent": "example/productCatalog",
+            "layoutTemplate": "$layoutsDir/index.njk",
+            "bootstrap": {
+                "syntheticShadow": true
+            }
+        }
+    ],
+    "assets": [
+        {
+            "alias": "assetsDir",
+            "dir": "$rootDir/src/assets",
+            "urlPath": "/public/assets"
+        },
+        {
+            "alias": "favicon",
+            "dir": "$rootDir/src/assets/favicon.ico",
+            "urlPath": "/favicon.ico"
+        },
+        {
+            "alias": "slds",
+            "dir": "$rootDir/node_modules/@salesforce-ux/design-system/assets",
+            "urlPath": "/public/slds"
+        },
+        {
+            "alias": "localAssets",
+            "dir": "$rootDir/src/assets",
+            "urlPath": "/public/assets"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+<template>
+    <example-global-navigation current-route="product-catalog"></example-global-navigation>
+    <div class="product-catalog-layout">
+        <example-product-filters
+            onfilterchange={handleFilterChange}
+            onsearchchange={handleSearchChange}
+            selected-filter={selectedFilter}
+            search-query={searchQuery}
+        ></example-product-filters>
+        <div class="product-catalog-main">
+            <div class="product-catalog-grid-offset">
+                <div class="product-catalog-grid">
+                    <template for:each={products} for:item="product">
+                        <div key={product.id} class="product-catalog-grid__item">
+                            <example-product-card
+                                icon={product.icon}
+                                name={product.name}
+                                price={product.price}
+                                frequency={product.frequency}
+                                description={product.description}
+                                capabilities={product.capabilities}
+                                capabilities-link={product.capabilitiesLink}
+                                relation-type={product.relationType}
+                                related-products={product.relatedProducts}
+                                tags={product.tags}
+                            ></example-product-card>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </div>
+</template> 

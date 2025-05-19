@@ -1,0 +1,33 @@
+<template>
+    <nav class="product-filters-sidebar">
+        <ul class="product-filters-list">
+            <template for:each={filtersWithSelected} for:item="filter">
+                <li key={filter.value}>
+                    <button
+                        class="product-filter-btn"
+                        data-value={filter.value}
+                        onclick={handleFilterClick}
+                        aria-pressed={filter.selected}
+                    >
+                        <template if:true={filter.showIcon}>
+                            <img src={filter.icon} alt={filter.label} class="product-filter-icon" />
+                        </template>
+                        <span>{filter.label}</span>
+                    </button>
+                </li>
+            </template>
+        </ul>
+        <div class="product-filters-search">
+            <span class="search-icon-wrapper">
+                <img src="/public/assets/product-icons/search-filter-icon.svg" alt="Search" class="search-filter-icon" />
+            </span>
+            <input
+                type="search"
+                class="product-filters-search-input"
+                placeholder="Search Products"
+                value={searchQuery}
+                oninput={handleSearchInput}
+            />
+        </div>
+    </nav>
+</template> 

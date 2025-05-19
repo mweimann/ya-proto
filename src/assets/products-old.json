@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "icon": "/public/assets/product1-icon.svg",
+    "name": "Super CRM",
+    "price": "$49.00",
+    "frequency": "per month",
+    "description": "A powerful CRM for your business.",
+    "capabilities": ["Contact Management", "Opportunity Tracking", "Reports & Dashboards"],
+    "capabilitiesLink": "https://example.com/super-crm",
+    "bundles": [
+      { "name": "Sales Suite", "link": "https://example.com/sales-suite" },
+      { "name": "Enterprise Edition", "link": "https://example.com/enterprise-edition" }
+    ],
+    "tags": ["CRM", "Sales", "Cloud"]
+  },
+  {
+    "id": 2,
+    "icon": "/public/assets/product2-icon.svg",
+    "name": "Cloud Storage",
+    "price": "$19.00",
+    "frequency": "per month",
+    "description": "Secure, scalable cloud storage.",
+    "capabilities": ["File Sync", "Backup", "Collaboration"],
+    "capabilitiesLink": "https://example.com/cloud-storage",
+    "bundles": [
+      { "name": "Productivity Suite", "link": "https://example.com/productivity-suite" }
+    ],
+    "tags": ["Storage", "Cloud", "Collaboration"]
+  },
+  {
+    "id": 3,
+    "icon": "/public/assets/product3-icon.svg",
+    "name": "AI Assistant",
+    "price": "$99.00",
+    "frequency": "per month",
+    "description": "Boost productivity with AI.",
+    "capabilities": ["Task Automation", "Smart Suggestions", "Analytics"],
+    "capabilitiesLink": "https://example.com/ai-assistant",
+    "bundles": [
+      { "name": "AI Suite", "link": "https://example.com/ai-suite" },
+      { "name": "Enterprise Edition", "link": "https://example.com/enterprise-edition" }
+    ],
+    "tags": ["AI", "Productivity", "Automation"]
+  }
+] 

@@ -1,0 +1,81 @@
+.product-filters-sidebar {
+    margin-top: 72px;
+    width: 200px;
+    height: 100%;
+  
+    border-right: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 0 0;
+}
+.product-filters-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.product-filter-btn {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    background: none;
+    border: none;
+    padding: 8px 24px;
+    font-size: --slds-g-font-scale-neg-1;
+    color: #444;
+    cursor: pointer;
+    border-radius: 0 32px 32px 0;
+    transition: background 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1), transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 4px;
+}
+.product-filter-btn[aria-pressed="true"],
+.product-filter-btn.selected {
+    background: rgba(20, 93, 232, 0.2);
+    color: #145de8;
+    font-weight: 600;
+    transform: scale(1.04);
+    box-shadow: 0 2px 8px 0 rgba(20, 93, 232, 0.08);
+}
+.product-filter-btn[aria-pressed="true"] .product-filter-icon,
+.product-filter-btn.selected .product-filter-icon {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(92%) saturate(749%) hue-rotate(196deg) brightness(97%) contrast(101%);
+}
+.product-filter-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.product-filter-btn > .product-filter-icon:first-child {
+    margin-right: 12px;
+}
+.product-filter-btn > span:first-child {
+    margin-right: 0;
+}
+.product-filters-search {
+    position: relative;
+    padding: 16px 16px 16px 16px;
+    display: flex;
+    align-items: center;
+}
+.search-icon-wrapper {
+    position: absolute;
+    left: 32px;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+}
+.search-filter-icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.6;
+}
+.product-filters-search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 32px;
+    border: 1px solid #e5e5e5;
+    font-size: --slds-g-font-scale-neg-1;
+    background: #f7f7f7;
+    outline: none;
+    padding-left: 36px;
+} 

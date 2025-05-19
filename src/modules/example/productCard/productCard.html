@@ -1,0 +1,84 @@
+<template>
+    <article class="slds-card slds-card_boundary product-card">
+        <div class="product-card-content">
+            <!-- product-icon, product-name -->
+            <div class="product-header slds-p-around_medium slds-grid slds-grid_vertical-align-center">
+                <img src={icon} alt="" class="product-icon slds-m-right_small" />
+                <h2 class="product-name slds-text-heading_small">{name}</h2>
+            </div>
+            <!-- product-price -->
+            <div class="product-price slds-text-heading_large slds-p-horizontal_medium">{price}</div>
+            <!-- product-price-frequency -->
+            <div class="product-price-frequency slds-text-body_small slds-p-horizontal_medium">{frequency}</div>
+            <!-- product-description -->
+            <p class="product-description slds-p-around_medium">{description}</p>
+            <!-- product-capabilities-list -->
+            <div class="slds-p-horizontal_medium">
+                <div class="slds-text-title_bold">Included Capabilities:</div>
+                <ul class="product-capabilities-list slds-list_dotted slds-m-bottom_x-small">
+                    <template for:each={capabilities} for:item="cap">
+                        <li key={cap} class="slds-p-left_medium product-capability-item">
+                            <img src="/public/assets/check-icon.svg" alt="check" class="capability-check-icon" />
+                            {cap}
+                        </li>
+                    </template>
+                </ul>
+                <!-- product-capabilities-link -->
+                <a href={capabilitiesLink} class="product-capabilities-link">See more...</a>
+            </div>
+            <!-- product-bundles-list -->
+            <template if:true={hasRelatedProducts}>
+                <div class="product-bundles slds-p-horizontal_medium slds-m-top_medium">
+                    <div class="slds-text-title_bold">{relatedProductsTitle}</div>
+                    <div class="product-bundles-columns">
+                        <ul>
+                            <template for:each={relatedProductsColumn1} for:item="item">
+                                <li key={item.name}>
+                                    <a href={item.link} class="product-bundle-link slds-text-link">{item.name}</a>
+                                </li>
+                            </template>
+                        </ul>
+                        <ul>
+                            <template for:each={relatedProductsColumn2} for:item="item">
+                                <li key={item.name}>
+                                    <a href={item.link} class="product-bundle-link slds-text-link">{item.name}</a>
+                                </li>
+                            </template>
+                        </ul>
+                    </div>
+                </div>
+            </template>
+        </div>
+        <!-- product-quantity-counter, product-add-to-cart-button -->
+        <div class="product-cart-controls slds-p-around_medium slds-m-top_medium">
+            <div class="product-cart-row">
+                <div class="product-quantity-input">
+                    <button
+                        class="counter-btn counter-btn--minus"
+                        onclick={decrement}
+                        disabled={isMinusDisabled}
+                        aria-label="Decrease quantity"
+                    >
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <circle cx="12" cy="12" r="11" fill={minusCircleColor}></circle>
+                            <rect x="7" y="11" width="10" height="2" rx="1" fill={minusIconColor}></rect>
+                        </svg>
+                    </button>
+                    <span class="product-quantity-counter">{quantity}</span>
+                    <button
+                        class="counter-btn counter-btn--plus"
+                        onclick={increment}
+                        aria-label="Increase quantity"
+                    >
+                        <svg viewBox="0 0 24 24" width="20" height="20">
+                            <circle cx="12" cy="12" r="11" fill="#145de8"></circle>
+                            <rect x="7" y="11" width="10" height="2" rx="1" fill="#fff"></rect>
+                            <rect x="11" y="7" width="2" height="10" rx="1" fill="#fff"></rect>
+                        </svg>
+                    </button>
+                </div>
+                <button class="product-add-to-cart-button slds-button slds-button_neutral" style="margin-left: 8px;" disabled={isAddDisabled}>{addButtonText}</button>
+            </div>
+        </div>
+    </article>
+</template> 

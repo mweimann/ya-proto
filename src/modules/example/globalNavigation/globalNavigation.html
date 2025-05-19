@@ -1,0 +1,57 @@
+<template>
+    <header class="slds-global-header_container">
+        <div class="slds-global-header slds-grid slds-grid_align-spread">
+            <div class="slds-global-header__item">
+                <div class="slds-global-header__logo">
+                    <img src="/public/assets/salesforce-logo.svg" alt="Salesforce" style="height:32px;">
+                </div>
+            </div>
+            <div class="slds-global-header__item slds-global-header__item_search">
+                <div class="slds-form-element">
+                    <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_left">
+                        <svg class="slds-input__icon slds-input__icon_left slds-icon-text-default" aria-hidden="true">
+                            <use xlink:href="/public/slds/icons/utility-sprite/svg/symbols.svg#search"></use>
+                        </svg>
+                        <input type="text" class="slds-input" placeholder="Search..." />
+                    </div>
+                </div>
+            </div>
+            <div class="slds-global-header__item">
+                <!-- Utility icons can be added here -->
+            </div>
+        </div>
+        <nav class="slds-context-bar">
+            <div class="slds-context-bar__primary">
+                <div class="slds-context-bar__item slds-no-hover">
+                    <span class="slds-context-bar__label-action slds-context-bar__app-name">
+                        <span class="slds-truncate" title="Your Account">Your Account</span>
+                    </span>
+                </div>
+            </div>
+            <div class="slds-context-bar__secondary">
+                <ul class="slds-grid">
+                    <li class={productCatalogClass}>
+                        <a href="/product-catalog" class="slds-context-bar__label-action">
+                            <span class="slds-truncate" title="Product Catalog">Product Catalog</span>
+                        </a>
+                    </li>
+                    <li class={accountClass}>
+                        <a href="/account" class="slds-context-bar__label-action">
+                            <span class="slds-truncate" title="Account">Account</span>
+                        </a>
+                    </li>
+                    <li class={contractsClass}>
+                        <a href="/contracts" class="slds-context-bar__label-action">
+                            <span class="slds-truncate" title="Contracts">Contracts</span>
+                        </a>
+                    </li>
+                    <li class={invoicesClass}>
+                        <a href="/invoices" class="slds-context-bar__label-action">
+                            <span class="slds-truncate" title="Invoices">Invoices</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</template> 

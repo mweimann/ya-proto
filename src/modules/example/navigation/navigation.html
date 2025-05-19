@@ -1,0 +1,18 @@
+<template>
+    <nav class="slds-navigation-list_vertical slds-p-around_medium">
+        <ul class="slds-has-dividers_bottom-space">
+            <template for:each={navigationItems} for:item="item">
+                <li key={item.name} class="slds-navigation-list-item">
+                    <a 
+                        href="javascript:void(0);" 
+                        class="slds-navigation-list-item__action slds-text-link_reset"
+                        data-name={item.name}
+                        onclick={handleNavigation}
+                    >
+                        <span class="slds-truncate" title={item.label}>{item.label}</span>
+                    </a>
+                </li>
+            </template>
+        </ul>
+    </nav>
+</template> 
