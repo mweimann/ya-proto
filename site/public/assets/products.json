@@ -1,0 +1,403 @@
+[
+  {
+    "id": 1,
+    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "name": "Einstein Conversation Insights",
+    "price": "$50.00",
+    "frequency": "per month",
+    "description": "Get the real-time insights you need to personalize every customer experience.",
+    "capabilities": [
+      "Call Insights",
+      "Call Trend Summaries",
+      "Enablement Analytics"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/sales/conversation-intelligence/",
+    "relationType": "bundles",
+    "relatedProducts": [
+      {
+        "name": "Sales Engagement",
+        "link": "/sales-engagement"
+      },
+      {
+        "name": "Unlimited Edition",
+        "link": "/unlimited-edition"
+      }
+    ],
+    "tags": [
+      "Sales",
+      "CRM"
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "name": "Sales Engagement",
+    "price": "$50.00",
+    "frequency": "per month",
+    "description": "Engage prospects and customers more effectively at every stage of the deal.",
+    "capabilities": [
+      "Sales Cadences",
+      "Engagement Intelligence",
+      "Customer Signals"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/sales/engagement-platform/",
+    "relationType": "bundles",
+    "relatedProducts": [
+      {
+        "name": "Unlimited Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Einstein 1 Sales Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Sales",
+      "CRM"
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "/public/assets/product-icons/starter-icon.svg",
+    "name": "Starter Suite",
+    "price": "$25.00",
+    "frequency": "per month",
+    "description": "Start fast with marketing, sales, commerce and service tools in a single app.",
+    "capabilities": [
+      "Sales opportunity tracking",
+      "Marketing segmentation and campaigns",
+      "Secure online payment links",
+      "Customer service case management"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/small-business/starter/",
+    "relationType": "",
+    "relatedProducts": "",
+    "tags": [
+      "Small business",
+      "CRM",
+      "Suite",
+      "Sales",
+      "Service",
+      "Marketing",
+      "Commerce",
+      "Owned"
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "/public/assets/product-icons/starter-icon.svg",
+    "name": "Pro Suite",
+    "price": "$100.00",
+    "frequency": "per month",
+    "description": "The flexible CRM suite with even more marketing, sales, service, and commerce tools.",
+    "capabilities": [
+      "Everything in Starter plus Enhanced, Real-Time Chat",
+      "Greater Customization and Automation",
+      "Sales Quoting and Forecasting",
+      "Access to AppExchange"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/small-business/pro-suite/",
+    "relationType": "",
+    "relatedProducts": "",
+    "tags": [
+      "Small business",
+      "CRM",
+      "Suite",
+      "Sales",
+      "Service",
+      "Marketing",
+      "Commerce",
+      "Upgrades"
+    ]
+  },
+  {
+    "id": 5,
+    "icon": "/public/assets/product-icons/platform-icon.svg",
+    "name": "Cloud Storage",
+    "price": "$19.00",
+    "frequency": "per TB",
+    "description": "Secure, scalable cloud storage.",
+    "capabilities": [
+      "File Sync",
+      "Backup",
+      "Collaboration"
+    ],
+    "capabilitiesLink": "https://example.com/cloud-storage",
+    "relationType": "bundles",
+    "relatedProducts": [
+      {
+        "name": "Productivity Suite",
+        "link": "https://example.com/productivity-suite"
+      }
+    ],
+    "tags": [
+      "Storage",
+      "Cloud",
+      "Collaboration",
+      "Platform"
+    ]
+  },
+  {
+    "id": 6,
+    "icon": "/public/assets/product-icons/agentforce-icon.svg",
+    "name": "Flex Credits",
+    "price": "$500.00",
+    "frequency": "100,000 credits",
+    "description": "Flexible credits that can be used across all of Salesforce's consumption-based services.",
+    "capabilities": [
+      "Cost Alignment: Scale spend to the value delivered",
+      "Adaptability: Pilot, expand, and evolve your AI strategy",
+      "Visibility: Track usage over time with Digital Wallet"
+    ],
+    "capabilitiesLink": "https://docs.google.com/presentation/d/1-7TN-hFTVg_4t_biMEKpe8IU2cz3_Vt-JbzGUv3ziow/edit?pli=1&slide=id.g35819225ed5_2_1176#slide=id.g35819225ed5_2_1176",
+    "relationType": "canBeUsedFor",
+    "relatedProducts": [
+      {
+        "name": "Service Agent",
+        "link": "google.com"
+      },
+      {
+        "name": "SDR Agent",
+        "link": "google.com"
+      },
+      {
+        "name": "Sales Coach",
+        "link": "google.com"
+      },
+      {
+        "name": "Employee Agent",
+        "link": "google.com"
+      }
+    ],
+    "tags": [
+      "Agentforce",
+      "Credits"
+    ]
+  },
+  {
+    "id": 7,
+    "icon": "/public/assets/product-icons/platform-icon.svg",
+    "name": "Additional API Calls - 10,000 per day",
+    "price": "$25.00",
+    "frequency": "per month",
+    "description": "Adds an additional 10,000 API calls per day to your org.",
+    "capabilities": "",
+    "capabilitiesLink": "",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Unlimited Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Einstein 1 Sales Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Platform"
+    ]
+  },
+  {
+    "id": 8,
+    "icon": "/public/assets/product-icons/marketing-icon.svg",
+    "name": "CMS",
+    "price": "$10,000.00",
+    "frequency": "per month",
+    "description": "Create and share content across Salesforce and other digital channels from one place.",
+    "capabilities": "",
+    "capabilitiesLink": "",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Unlimited Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Marketing",
+      "Engagement",
+      "CMS"
+    ]
+  },
+  {
+    "id": 9,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "Contact Center",
+    "price": "$150.00",
+    "frequency": "per month",
+    "description": "Omnichannel customer engagement with a powerful, integrated, and affordable solution.",
+    "capabilities": "",
+    "capabilitiesLink": "",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      },
+      {
+        "name": "Unlimited Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Service"
+    ]
+  },
+  {
+    "id": 10,
+    "icon": "/public/assets/product-icons/sales-icon.svg",
+    "name": "CPQ",
+    "price": "$75.00",
+    "frequency": "per month",
+    "description": "CPQ (Configure, Price, Quote) Edition User License: Includes standard support and free upgrades.",
+    "capabilities": [
+      "Quote generation with guided selling",
+      "Centralized product and pricing data",
+      "Order automation"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/sales/revenue-lifecycle-management/",
+    "relationType": "",
+    "relatedProducts": "",
+    "tags": [
+      "Sales",
+      "CRM",
+      "Revenue Cloud"
+    ]
+  },
+  {
+    "id": 11,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "Customer Community (10,000 Members)",
+    "price": "$8,500.00",
+    "frequency": "per month",
+    "description": "Deliver stellar self-service or expert-connected customer support experiences.",
+    "capabilities": [
+      "Faster case resolution and increased call deflection",
+      "1 community and 10,000 users along with Chatter Answers functionality."
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/service/customer-self-service/",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Service",
+      "Self-Service",
+      "Community",
+      "Portal"
+    ]
+  },
+  {
+    "id": 12,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "Customer Community (100,000 Logins/month)",
+    "price": "$10,000.00",
+    "frequency": "per month",
+    "description": "Deliver stellar self-service or expert-connected customer support experiences.",
+    "capabilities": [
+      "Faster case resolution and increased call deflection",
+      "1 community and 2,000,000 users along with Chatter Answers functionality."
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/service/customer-self-service/",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Service",
+      "Self-Service",
+      "Community",
+      "Portal"
+    ]
+  },
+  {
+    "id": 13,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "Field Service+",
+    "price": "$380.00",
+    "frequency": "per month",
+    "description": "A Bundle designed for users with multiple roles in the field service process, including dispatch, technician and sales.",
+    "capabilities": ["Includes the functionality of Service Cloud, as well as Dispatcher, Technician and Sales Cloud"],
+    "capabilitiesLink": "https://www.salesforce.com/service/field-service-management/",
+    "relationType": "availableWith",
+    "relatedProducts": [
+      {
+        "name": "Enterprise Edition",
+        "link": "https://www.salesforce.com/sales/pricing/"
+      }
+    ],
+    "tags": [
+      "Service",
+      "Field Service"
+    ]
+  },
+  {
+    "id": 14,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "IT Service Center - Agent",
+    "price": "$75.00",
+    "frequency": "per month",
+    "description": "Unified IT ticket and endpoint management for secure, compliant devices. Minimum 1 agent license.",
+    "capabilities": [
+      "IT ticket management",
+      "Asset inventory",
+      "Ticket reporting"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/high-tech/artificial-intelligence/",
+    "relationType": "requiredProducts",
+    "relatedProducts": [
+      {
+        "name": "minimum of 1 IT Service Center - Agent license per org with Employee Productivity - Starter",
+        "link": "https://www.salesforce.com/high-tech/artificial-intelligence/"
+      }
+    ],
+    "tags": [
+      "Service",
+      "Self-Service",
+      "Employee Service",
+      "IT Service Center",
+      "IT"
+    ]
+  },
+  {
+    "id": 15,
+    "icon": "/public/assets/product-icons/service-icon.svg",
+    "name": "Knowledge",
+    "price": "$75.00",
+    "frequency": "per month",
+    "description": "Deliver the right answers across channels with complete knowledge management.",
+    "capabilities": [
+      "FAQs, how-to guides, troubleshooting tips, glossaries, case studies, articles and video tutorials",
+      "Faster response times, improved customer experiences, round-the-clock support and consistent employee training"
+    ],
+    "capabilitiesLink": "https://www.salesforce.com/service/knowledge-base/",
+    "relationType": "requiredProducts",
+    "relatedProducts": [
+      {
+        "name": "Service Cloud",
+        "link": "https://www.salesforce.com/service/"
+      }
+    ],
+    "tags": [
+      "Service",
+      "Service Cloud",
+      "Knowledge Base"
+    ]
+  }
+]
