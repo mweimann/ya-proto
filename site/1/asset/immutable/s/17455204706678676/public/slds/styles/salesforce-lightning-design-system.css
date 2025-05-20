@@ -10585,8 +10585,8 @@ a.slds-button--inverse:focus{
   right:0;
   bottom:0;
   left:0;
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204710120528/ya-proto/public/ya-proto/slds/images/themes/oneSalesforce/banner-brand-default.png"), -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(1, 68, 134, 0)), to(#014486));
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204710120528/ya-proto/public/ya-proto/slds/images/themes/oneSalesforce/banner-brand-default.png"), linear-gradient(to top, rgba(1, 68, 134, 0) 0, #014486);
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204710120528/public/slds/images/themes/oneSalesforce/banner-brand-default.png"), -webkit-gradient(linear, left bottom, left top, color-stop(0, rgba(1, 68, 134, 0)), to(#014486));
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204710120528/public/slds/images/themes/oneSalesforce/banner-brand-default.png"), linear-gradient(to top, rgba(1, 68, 134, 0) 0, #014486);
   background-repeat:repeat-x;
   background-position:top left;
 }
@@ -10639,10 +10639,10 @@ a.slds-button--inverse:focus{
   height:0;
 }
 .slds-brand-band.slds-brand-band_group:before{
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204710180014/ya-proto/public/ya-proto/slds/images/themes/oneSalesforce/banner-group-public-default.png");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204710180014/public/slds/images/themes/oneSalesforce/banner-group-public-default.png");
 }
 .slds-brand-band.slds-brand-band_user:before{
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204710239046/ya-proto/public/ya-proto/slds/images/themes/oneSalesforce/banner-user-default.png");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204710239046/public/slds/images/themes/oneSalesforce/banner-user-default.png");
 }
 .slds-brand-band .slds-brand-band_blank{
   background:var(--slds-g-color-neutral-base-100, white);
@@ -11706,7 +11706,7 @@ a.slds-button--inverse:focus{
 .slds-popover_walkthrough .slds-popover__header,
 .slds-popover--walkthrough .slds-popover__header{
   background-color:var(--slds-g-color-brand-base-20, #032d60);
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204715105420/ya-proto/public/ya-proto/slds/images/popovers/popover-header.png");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204715105420/public/slds/images/popovers/popover-header.png");
   background-repeat:no-repeat;
   background-position:bottom;
   background-size:contain;
@@ -11754,7 +11754,7 @@ a.slds-button--inverse:focus{
 .slds-popover_feature{
   border-color:var(--slds-g-color-brand-base-50, #0176d3);
   background-color:var(--slds-g-color-brand-base-50, #0176d3);
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204715104034/ya-proto/public/ya-proto/slds/images/popovers/popover-action.png");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204715104034/public/slds/images/popovers/popover-action.png");
   background-repeat:no-repeat;
   background-size:100% 2.25rem;
   background-position:bottom;
@@ -13950,7 +13950,7 @@ input[readonly][role=combobox][disabled]{
 .slds-global-header__logo{
   width:12.5rem;
   height:2.5rem;
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204721352286/ya-proto/public/ya-proto/slds/images/logo-noname.svg");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204721352286/public/slds/images/logo-noname.svg");
   background-size:contain;
   background-repeat:no-repeat;
   background-position:left center;
@@ -21005,22 +21005,22 @@ input[readonly][role=combobox][disabled]{
   color:var(--slds-c-avatar-text-color-hover, currentColor);
 }
 .slds-avatar.slds-avatar_group-image-small{
-  background:url("/ya-proto/1/asset/immutable/s/17455204712691270/ya-proto/public/ya-proto/slds/images/group_avatar_96.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204712691270/public/slds/images/group_avatar_96.png") top left/cover no-repeat;
 }
 .slds-avatar.slds-avatar_group-image-medium{
-  background:url("/ya-proto/1/asset/immutable/s/17455204712685424/ya-proto/public/ya-proto/slds/images/group_avatar_160.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204712685424/public/slds/images/group_avatar_160.png") top left/cover no-repeat;
 }
 .slds-avatar.slds-avatar_group-image-large{
-  background:url("/ya-proto/1/asset/immutable/s/17455204712687950/ya-proto/public/ya-proto/slds/images/group_avatar_200.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204712687950/public/slds/images/group_avatar_200.png") top left/cover no-repeat;
 }
 .slds-avatar.slds-avatar_profile-image-small{
-  background:url("/ya-proto/1/asset/immutable/s/17455204715356768/ya-proto/public/ya-proto/slds/images/profile_avatar_96.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204715356768/public/slds/images/profile_avatar_96.png") top left/cover no-repeat;
 }
 .slds-avatar.slds-avatar_profile-image-medium{
-  background:url("/ya-proto/1/asset/immutable/s/17455204715355152/ya-proto/public/ya-proto/slds/images/profile_avatar_160.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204715355152/public/slds/images/profile_avatar_160.png") top left/cover no-repeat;
 }
 .slds-avatar.slds-avatar_profile-image-large{
-  background:url("/ya-proto/1/asset/immutable/s/17455204715356084/ya-proto/public/ya-proto/slds/images/profile_avatar_200.png") top left/cover no-repeat;
+  background:url("/ya-proto/1/asset/immutable/s/17455204715356084/public/slds/images/profile_avatar_200.png") top left/cover no-repeat;
 }
 .slds-avatar_x-small,
 .slds-avatar--x-small{
@@ -22784,7 +22784,7 @@ input[readonly][role=combobox][disabled]{
 .slds-einstein-header{
   position:relative;
   background-color:var(--slds-g-color-palette-cloud-blue-80, #90d0fe);
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204720453134/ya-proto/public/ya-proto/slds/images/einstein-headers/einstein-header-background.svg");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204720453134/public/slds/images/einstein-headers/einstein-header-background.svg");
   background-repeat:no-repeat;
   background-position:left top;
   background-size:cover;
@@ -22801,7 +22801,7 @@ input[readonly][role=combobox][disabled]{
 .slds-einstein-header .slds-einstein-header__figure:last-child{
   margin-bottom:calc((0.75rem + 5px) * -1);
   height:4.75rem;
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204720453120/ya-proto/public/ya-proto/slds/images/einstein-headers/einstein-figure.svg");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204720453120/public/slds/images/einstein-headers/einstein-figure.svg");
   background-position:right bottom;
   background-repeat:no-repeat;
 }
@@ -23080,7 +23080,7 @@ input[readonly][role=combobox][disabled]{
   overflow:auto;
   padding:1rem 3rem 7.75rem;
   color:var(--slds-g-color-brand-base-20, #032d60);
-  background-image:url("/ya-proto/1/asset/immutable/s/17455204710248352/ya-proto/public/ya-proto/slds/images/welcome-mat/bg-info@2x.png");
+  background-image:url("/ya-proto/1/asset/immutable/s/17455204710248352/public/slds/images/welcome-mat/bg-info@2x.png");
   background-position:bottom center;
   background-repeat:no-repeat;
   background-size:contain;

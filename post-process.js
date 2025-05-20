@@ -8,25 +8,33 @@ const __dirname = path.dirname(__filename);
 const buildDir = path.join(__dirname, 'site');
 const exts = ['.js', '.html', '.json', '.css'];
 
+function safePrefix(content, pattern) {
+    // Only add /ya-proto/ if not already present after the initial /
+    return content.replace(pattern, (match, p1, p2, offset, string) => {
+        // offset is the index where the match starts in the string
+        // p1 is the quote, p2 is the path (e.g. public/)
+        // Check if the next characters are already 'ya-proto/'
+        const afterSlash = string.substr(offset + p1.length + 1, 8);
+        if (afterSlash === 'ya-proto') return match;
+        return `${p1}/ya-proto/${p2}`;
+    });
+}
+
 function processFile(filePath) {
     let content = fs.readFileSync(filePath, 'utf8');
-    // Patch all /1/bundle/ not already prefixed with /ya-proto/
-    content = content.replace(/(["'`])\/1\/bundle\//g, '$1/ya-proto/1/bundle/');
-    content = content.replace(/([^/])\/1\/bundle\//g, '$1/ya-proto/1/bundle/');
-    // Patch all /public/ not already prefixed
-    content = content.replace(/(["'`])\/public\//g, '$1/ya-proto/public/');
-    content = content.replace(/([^/])\/public\//g, '$1/ya-proto/public/');
-    // Patch all /assets/ not already prefixed
-    content = content.replace(/(["'`])\/assets\//g, '$1/ya-proto/assets/');
-    content = content.replace(/([^/])\/assets\//g, '$1/ya-proto/assets/');
-    // Patch favicon.ico
-    content = content.replace(/(["'`])\/favicon\.ico/g, '$1/ya-proto/favicon.ico');
-    // Patch all /slds/ not already prefixed
-    content = content.replace(/(["'`])\/slds\//g, '$1/ya-proto/slds/');
-    content = content.replace(/([^/])\/slds\//g, '$1/ya-proto/slds/');
-    // Patch all /products.json not already prefixed
-    content = content.replace(/(["'`])\/products\.json/g, '$1/ya-proto/products.json');
-    // Patch config: object keys and values
+    // Patch /1/bundle/ references
+    content = safePrefix(content, /(["'`])\/(1\/bundle\/)/g);
+    // Patch /public/ references
+    content = safePrefix(content, /(["'`])\/(public\/)/g);
+    // Patch /assets/ references
+    content = safePrefix(content, /(["'`])\/(assets\/)/g);
+    // Patch /slds/ references
+    content = safePrefix(content, /(["'`])\/(slds\/)/g);
+    // Patch /favicon.ico
+    content = safePrefix(content, /(["'`])\/(favicon\.ico)/g);
+    // Patch /products.json
+    content = safePrefix(content, /(["'`])\/(products\.json)/g);
+    // Patch config: object keys and values (avoid double prefix)
     content = content.replace(/(\{\s*|,\s*)"\/(?!ya-proto)([\w@\-./%]+)"/g, '$1"/ya-proto/$2"');
     content = content.replace(/(["'`])\/(?!ya-proto)([\w@\-./%]+)(["'`])/g, '$1/ya-proto/$2$3');
     // Patch LWR environment variables to set base paths to '/ya-proto'
