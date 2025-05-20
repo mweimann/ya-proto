@@ -1,7 +1,9 @@
 {
   "name": "weimann-test",
   "version": "0.0.1",
-  "license": "MIT",
+  "description": "LWR App",
+  "author": "mweimann",
+  "license": "UNLICENSED",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,15 +12,24 @@
     "dev:compat": "lwr dev --mode compat",
     "build": "lwr build --clean",
     "build:prod-compat": "lwr build --clean --mode prod-compat",
-    "start": "lwr start",
+    "start": "lwr serve",
     "stage": "yarn build && yarn start",
-    "stage:prod-compat": "yarn build:prod-compat && yarn start"
+    "stage:prod-compat": "yarn build:prod-compat && yarn start",
+    "postbuild": "node post-process.js",
+    "deploy": "npm run build && cp _redirects site/ && cd site && git add -A && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages"
   },
   "dependencies": {
-    "@salesforce-ux/design-system": "^2.26.3",
-    "lightning-base-components": "^1.27.2-alpha",
-    "lwc": "latest",
-    "lwr": "0.18.1"
+    "@lwrjs/api": "^0.18.1",
+    "@lwrjs/config": "^0.18.1",
+    "@lwrjs/express": "^0.18.1",
+    "@lwrjs/loader": "^0.18.1",
+    "@lwrjs/router": "^0.18.1",
+    "@lwrjs/server": "^0.18.1",
+    "@salesforce-ux/design-system": "^2.20.1",
+    "express": "^4.18.2",
+    "lightning-base-components": "^0.18.1",
+    "lwc": "^3.1.1",
+    "lwr": "^0.18.1"
   },
   "engines": {
     "node": ">=18.0.0"

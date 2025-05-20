@@ -16838,27 +16838,27 @@ a:hover [icon-name='utility:info'] .slds-icon-text-default, a:focus [icon-name='
 .slds-avatar{
   --_slds-c-avatar-group-image-small:var(
     --lwc-groupDefaultAvatarSmall,
-    url('../public/group_avatar_96.png')
+    url('../ya-proto/public/group_avatar_96.png')
   );
   --_slds-c-avatar-group-image-medium:var(
     --lwc-groupDefaultAvatarMedium,
-    url('../public/group_avatar_160.png')
+    url('../ya-proto/public/group_avatar_160.png')
   );
   --_slds-c-avatar-group-image-large:var(
     --lwc-groupDefaultAvatarLarge,
-    url('../public/group_avatar_200.png')
+    url('../ya-proto/public/group_avatar_200.png')
   );
   --_slds-c-avatar-user-image-small:var(
     --lwc-userDefaultAvatarSmall,
-    url('../public/profile_avatar_96.png')
+    url('../ya-proto/public/profile_avatar_96.png')
   );
   --_slds-c-avatar-user-image-medium:var(
     --lwc-userDefaultAvatarMedium,
-    url('../public/profile_avatar_160.png')
+    url('../ya-proto/public/profile_avatar_160.png')
   );
   --_slds-c-avatar-user-image-large:var(
     --lwc-userDefaultAvatarLarge,
-    url('../public/profile_avatar_200.png')
+    url('../ya-proto/public/profile_avatar_200.png')
   );
 
   --slds-c-icon-color-background:var(--_slds-c-avatar-color-background);
@@ -18462,7 +18462,7 @@ a:hover [icon-name='utility:info'] .slds-icon-text-default, a:focus [icon-name='
 .slds-welcome-mat{
   --_slds-c-welcomemat-image-background:var(
     --lwc-welcomeMatBackgroundImageInfo,
-    url('../public/bg-info@2x.png')
+    url('../ya-proto/public/bg-info@2x.png')
   );
   position:relative;
 }
