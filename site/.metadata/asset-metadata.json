@@ -1,19 +1,19 @@
 {
   "assets": {
+    "/ya-proto/public/assets/slds-plus.css": {
+      "path": "/ya-proto/1/asset/immutable/s/17477620442016646/public/assets/slds-plus.css",
+      "mimeType": "text/css"
+    },
     "/ya-proto/public/slds/styles/salesforce-lightning-design-system.css": {
       "path": "/ya-proto/1/asset/immutable/s/17455204706678676/public/slds/styles/salesforce-lightning-design-system.css",
       "mimeType": "text/css"
     },
-    "/ya-proto/public/assets/slds-plus.css": {
-      "path": "/ya-proto/1/asset/immutable/s/17455205196333864/public/assets/slds-plus.css",
-      "mimeType": "text/css"
+    "/ya-proto/public/slds/images/themes/oneSalesforce/banner-brand-default.png": {
+      "path": "/ya-proto/1/asset/immutable/s/17455204710120528/public/slds/images/themes/oneSalesforce/banner-brand-default.png",
+      "mimeType": "image/png"
     },
     "/ya-proto/public/slds/images/popovers/popover-header.png": {
       "path": "/ya-proto/1/asset/immutable/s/17455204715105420/public/slds/images/popovers/popover-header.png",
-      "mimeType": "image/png"
-    },
-    "/ya-proto/public/slds/images/themes/oneSalesforce/banner-brand-default.png": {
-      "path": "/ya-proto/1/asset/immutable/s/17455204710120528/public/slds/images/themes/oneSalesforce/banner-brand-default.png",
       "mimeType": "image/png"
     },
     "/ya-proto/public/slds/images/popovers/popover-action.png": {
@@ -22,10 +22,6 @@
     },
     "/ya-proto/public/slds/images/group_avatar_160.png": {
       "path": "/ya-proto/1/asset/immutable/s/17455204712685424/public/slds/images/group_avatar_160.png",
-      "mimeType": "image/png"
-    },
-    "/ya-proto/public/slds/images/group_avatar_200.png": {
-      "path": "/ya-proto/1/asset/immutable/s/17455204712687950/public/slds/images/group_avatar_200.png",
       "mimeType": "image/png"
     },
     "/ya-proto/public/slds/images/group_avatar_96.png": {
@@ -40,12 +36,16 @@
       "path": "/ya-proto/1/asset/immutable/s/17455204715355152/public/slds/images/profile_avatar_160.png",
       "mimeType": "image/png"
     },
+    "/ya-proto/public/slds/images/profile_avatar_200.png": {
+      "path": "/ya-proto/1/asset/immutable/s/17455204715356084/public/slds/images/profile_avatar_200.png",
+      "mimeType": "image/png"
+    },
     "/ya-proto/public/slds/images/profile_avatar_96.png": {
       "path": "/ya-proto/1/asset/immutable/s/17455204715356768/public/slds/images/profile_avatar_96.png",
       "mimeType": "image/png"
     },
-    "/ya-proto/public/slds/images/profile_avatar_200.png": {
-      "path": "/ya-proto/1/asset/immutable/s/17455204715356084/public/slds/images/profile_avatar_200.png",
+    "/ya-proto/public/slds/images/group_avatar_200.png": {
+      "path": "/ya-proto/1/asset/immutable/s/17455204712687950/public/slds/images/group_avatar_200.png",
       "mimeType": "image/png"
     },
     "/ya-proto/public/slds/images/einstein-headers/einstein-figure.svg": {
@@ -56,12 +56,12 @@
       "path": "/ya-proto/1/asset/immutable/s/17455204720453134/public/slds/images/einstein-headers/einstein-header-background.svg",
       "mimeType": "image/svg+xml"
     },
-    "/ya-proto/public/slds/images/themes/oneSalesforce/banner-group-public-default.png": {
-      "path": "/ya-proto/1/asset/immutable/s/17455204710180014/public/slds/images/themes/oneSalesforce/banner-group-public-default.png",
-      "mimeType": "image/png"
-    },
     "/ya-proto/public/slds/images/themes/oneSalesforce/banner-user-default.png": {
       "path": "/ya-proto/1/asset/immutable/s/17455204710239046/public/slds/images/themes/oneSalesforce/banner-user-default.png",
+      "mimeType": "image/png"
+    },
+    "/ya-proto/public/slds/images/themes/oneSalesforce/banner-group-public-default.png": {
+      "path": "/ya-proto/1/asset/immutable/s/17455204710180014/public/slds/images/themes/oneSalesforce/banner-group-public-default.png",
       "mimeType": "image/png"
     },
     "/ya-proto/public/slds/images/welcome-mat/bg-info@2x.png": {
